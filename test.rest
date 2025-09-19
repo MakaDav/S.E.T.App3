@@ -1,0 +1,8 @@
+POST http://set.unza.zm:8088/https://sis.unza.zm/Rest/getlecturerset.json
+
+Content-Type: application/json
+
+{
+  "course_id": "40797",
+  "password": "12345"
+}

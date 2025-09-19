@@ -1,0 +1,109 @@
+.data-cards{
+    display:flex;
+    justify-content: center;
+}
+.data-card{
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+.data-card-title{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.card-entry{
+    font-size: 14px;
+    color: grey;
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-value{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid grey;
+    padding:3px;
+    border-radius: 50%;
+    font-size: small;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.data-card-key{
+    margin-right: 5px;
+    flex:1;
+    text-align:left;
+}
+.course {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.lecturers {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: block; /* hidden until course is clicked */
+}
+.lecturers.visible {
+    display: block;
+}
+.setup-panel{
+    display:flex
+}
+.courses-list{
+    flex:1;
+    padding:5px;
+    border: 1px solid grey;
+    border-radius:0.5cap;
+}
+.lecturers-list{
+    flex:2;
+   
+  
+}
+.lecturers-list-item{
+    flex:1;
+    display:flex;
+    padding:5px;
+    border:1px solid grey;
+    border-radius: 0.5cap;
+}
+.profile{
+    display:flex;
+    justify-content: space-between;
+    padding:5px;
+    font-size:medium;
+    text-transform: bold;
+}
+.dashboard-label{
+    padding:5px;
+    text-transform: uppercase;
+}
+.courses-list-panel{
+    flex:1
+}
+.check-box{
+    width:20px;
+    margin:5px 0;
+    padding:5px;
+}
+.lecturers-name{
+    font-size:large
+}
+.confirm-selection{
+    width:100%
+}

@@ -1,0 +1,72 @@
+.login-page {
+    height: auto; /* allow it to grow with content */
+    width: 100%;
+    max-width: 400px; /* good size for desktops */
+    padding: 2px;
+    display: flex;
+    flex-direction: column; /* stack children vertically */
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 1% auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-top:2px solid grey
+}
+
+.login-prompt {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 2px;
+    color: #333;
+    text-align: center;
+}
+
+/* Input and button styles for better usability */
+#login-form .form-group input,
+#login-form button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#login-form button {
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#login-form button:hover {
+    background: #0056b3;
+}
+
+/* Make it fit full screen on small devices */
+@media (max-width: 600px) {
+    .login-page {
+        width: 100%;
+        
+        max-width: none;
+        margin: 0;
+        border-radius: 0;
+        border: none;
+    }
+
+    .login-prompt {
+        font-size: 20px;
+    }
+    body{
+        background-color: #f0f0f0;
+    }
+   .setup-panel{
+    display:block
+   }
+}
+.set-header {
+    text-align: center;
+    margin-bottom: 5px;
+}
